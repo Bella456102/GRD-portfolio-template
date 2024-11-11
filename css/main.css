@@ -20,8 +20,8 @@ body{
 }
 
 a {
-    text-decoration: none;
-    color:white;
+	text-decoration: none;
+	color: #000000;
 }
 
 p{
@@ -115,12 +115,13 @@ hr{
 }
 
 #hero{
-    background-image: url(../img/placeholder.png);
+	background-color: #FFFFFF;
 }
 
 #hero > ul {
-    position: absolute;
-    bottom:25px;
+	position: absolute;
+	bottom: auto;
+	top: 23px;
 }
 
 #hero > ul > li {
