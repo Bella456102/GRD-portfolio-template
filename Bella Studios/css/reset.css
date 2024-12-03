@@ -23,10 +23,71 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+#hero .herologo {
+    width: 700px;
+    height: 300px;
+    margin-top: 105px;
+    background-image: url(../img/Bella%20Studios%20Logo%20Blue.png);
+    background-repeat: no-repeat;
+    background-size: 504px auto;
+    background-position: 41% 30%;
+}
+.nav-mobile a {
+    color: #FFFFFF;
+}
+
+.herologo .skills-list .branding {
+    text-align: center;
+    width: 109px;
+    margin-left: 116px;
+    border: thin solid #000000;
+    border-radius: 12px;
+    height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 3px;
+}
+.herologo .skills-list .branding2 {
+    width: 134px;
+    height: 20px;
+    border: thin solid #000000;
+    border-radius: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 271px;
+    padding-top: 3px;
+    margin-top: -25px;
+    color: #000000;
+}
+.herologo .skills-list .branding3 {
+    width: 138px;
+    height: 20px;
+    margin-left: 444px;
+    padding-top: 3px;
+    margin-top: -25px;
+    text-transform: uppercase;
+    border: thin solid #000000;
+    border-radius: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+#hero .herologo .skills-list {
+    width: 700px;
+    height: 50px;
+    margin-top: 249px;
+    background-repeat: no-repeat;
+}
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
+    margin-top: 0px;
 }
 body {
 	line-height: 1;

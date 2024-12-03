@@ -31,7 +31,7 @@ nav {
 }
 a {
     text-decoration: none;
-    color:white;
+    color: #000000;
 }
 
 p{
@@ -125,7 +125,8 @@ hr{
 }
 
 #hero{
-    background-image: url(../img/placeholder.png);
+    background-color: #FFFFFF;
+
 }
 
 #hero > ul {
