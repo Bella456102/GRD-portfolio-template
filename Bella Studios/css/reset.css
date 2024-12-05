@@ -25,13 +25,13 @@ time, mark, audio, video {
 }
 
 #hero .herologo {
-    width: 700px;
-    height: 300px;
-    margin-top: 105px;
+    width: 800px;
+    height: 400px;
     background-image: url(../img/Bella%20Studios%20Logo%20Blue.png);
+    background-size: 636px auto;
+    background-position: 42% 30%;
     background-repeat: no-repeat;
-    background-size: 504px auto;
-    background-position: 41% 30%;
+    margin-top: 80px;
 }
 .nav-mobile a {
     color: #FFFFFF;
@@ -40,13 +40,14 @@ time, mark, audio, video {
 .herologo .skills-list .branding {
     text-align: center;
     width: 109px;
-    margin-left: 116px;
+    margin-left: 151px;
     border: thin solid #000000;
     border-radius: 12px;
     height: 20px;
     text-transform: uppercase;
     color: #000000;
     padding-top: 3px;
+    background-repeat: no-repeat;
 }
 .herologo .skills-list .branding2 {
     width: 134px;
@@ -55,15 +56,16 @@ time, mark, audio, video {
     border-radius: 12px;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 271px;
+    margin-left: 347px;
     padding-top: 3px;
     margin-top: -25px;
     color: #000000;
+    background-repeat: no-repeat;
 }
 .herologo .skills-list .branding3 {
     width: 138px;
     height: 20px;
-    margin-left: 444px;
+    margin-left: 564px;
     padding-top: 3px;
     margin-top: -25px;
     text-transform: uppercase;
@@ -71,6 +73,7 @@ time, mark, audio, video {
     border-radius: 12px;
     text-align: center;
     color: #000000;
+    background-repeat: no-repeat;
 }
 
 
@@ -78,7 +81,7 @@ time, mark, audio, video {
 #hero .herologo .skills-list {
     width: 700px;
     height: 50px;
-    margin-top: 249px;
+    margin-top: 311px;
     background-repeat: no-repeat;
 }
 

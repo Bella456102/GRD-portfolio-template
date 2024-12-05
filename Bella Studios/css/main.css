@@ -34,6 +34,7 @@ a {
     color: #000000;
 }
 
+
 p{
     margin:10px 50px 10px 0px;
     line-height: 1.5;
@@ -197,4 +198,19 @@ hr{
     /* border:1px solid white; */
     padding:5px 15px 5px 15px;
     border-radius:25px;
+}
+.mobile-menu {
+    background-color: #8FB5E0;
+    height: 0px;
+}
+.mobile-menu .mobile-menu-overlay ul {
+    display: inline;
+    height: 0px;
+    width: 158px;
+}
+.contact {
+    width: 1000px;
+    height: 300px;
+    background-image: url(../img/Contact%20Page.jpg);
+    background-size: contain;
 }
