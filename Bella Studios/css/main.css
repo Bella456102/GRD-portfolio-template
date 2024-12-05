@@ -35,8 +35,16 @@ a {
 }
 
 
+h2 + ul {
+    list-style-type: circle;
+    margin-bottom:10px;
+}
+
+
 p{
-    margin:10px 50px 10px 0px;
+    margin-top: -5px;
+    margin-right: 50px;
+    margin-left: -301px;
     line-height: 1.5;
 }
 
@@ -44,6 +52,7 @@ h1 {
     font-weight: 900;
     text-align: center;
     font-size: 2rem;
+    color: #000000;
 }
 
 h2{
@@ -51,15 +60,33 @@ h2{
     font-weight: 900;
     margin-bottom:10px;
 }
+.row .column .aboutmeh {
+    max-width: 179px;
+    font-size: xx-large;
+    margin-left: -105px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: thin solid #000000;
+    border-radius: 117px;
+    padding-left: 25px;
+    padding-right: 22px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 
-h2 + ul {
-    list-style-type: circle;
-    margin-bottom:10px;
 }
 
 h2 + ul > li {
-    margin-left:30px;
+    margin-left: 30px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.column ul li {
+    width: 228px;
+}
+.column .row .column {
+
+
+}
+
+
 
 hr{
     width:100%;
@@ -105,8 +132,97 @@ hr{
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    padding:10px;
+    padding: 10px;
+    color: #000000;
   }
+.column .row .baoutp {
+    width: 363px;
+}
+.column .row .software {
+    margin-left: -23px;
+    max-height: 250px;
+    max-width: 400px;
+    margin-top: 45px;
+}
+.row .software h2 {
+    border: thin solid #000000;
+    border-radius: 10px;
+    padding-left: 16px;
+    width: 100px;
+}
+.row .skills h2 {
+    border: thin solid #000000;
+    border-radius: 47px;
+    padding-left: 22px;
+    width: 103px;
+}
+.row .column p {
+    width: 377px;
+    margin-left: 64px;
+}
+
+
+
+.column .row .skills {
+    margin-left: 43px;
+    margin-top: 45px;
+}
+
+
+
+.bottom {
+    padding-left: 0px;
+    margin-top: 377px;
+}
+.space {
+    width: 800px;
+    height: 800px;
+}
+.row .column .headshot {
+    width: 527px;
+    height: 535px;
+    background-image: url(../img/Side%20lighting%20portrait.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+
+
+.column .row .column {
+    margin-left: -94px;
+}
+#category-selection .category-card .project1 {
+    width: 300px;
+    height: 500px;
+    background-image: url(../img/Atelier%20Poster%20Mockup.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 264% auto;
+    margin-left: -183px;
+}
+#category-selection .category-card .project2 {
+    width: 300px;
+    height: 500px;
+    background-image: url(../img/Atelier%20passes%20mockup.jpg);
+    background-size: 257% auto;
+    background-repeat: no-repeat;
+    background-position: 17% 47%;
+    margin-left: -21px;
+}
+#category-selection .category-card .project3 {
+    width: 300px;
+    height: 500px;
+    background-image: url(../img/ALyssa%205.jpg);
+    background-size: 268% auto;
+    background-repeat: no-repeat;
+    background-position: 55% 0%;
+    margin-left: 130px;
+}
+
+
+
+
 
 /* LAYOUT */
 
@@ -166,7 +282,6 @@ hr{
     margin: 25px;
     min-height: 400px;
     max-height: 400px;
-    border: 1px solid white;
 }
 
 .project-info{
